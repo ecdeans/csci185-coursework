@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../lecture02"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/Thumbs.db": false
+		},
+		"liveServer.settings.multiRootWorkspaceName": "tutorial01"
+	}
+}
