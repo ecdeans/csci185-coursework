@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fondamento&family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header, section, footer {
+    padding: 30px 10vw;
+}
+
+header {
+    background: #54a7c1;
+    color: white;
+    height: 150px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17pt;
+}
+
+header, section {
+    padding: 15px;
+}
+p, li {
+    line-height: 1.5em;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#inspiration {
+    background-color: #F0F0F0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#lectures {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    text-align: center;
+}
+
+#homework {
+    grid-column-start: 4;
+    grid-column-end: span 3;
+    text-align: center;
+}
+
+#tutorials {
+    grid-column-start: 7;
+    grid-column-end: span 3;
+    text-align: center;
+}
+
+#video {
+    size-adjust: 100px;
+    float: right;
+    margin-right: 50px;
+
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: ; */
+}
+
