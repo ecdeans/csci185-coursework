@@ -36,3 +36,9 @@ body {
     
 }
 
+#parent {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 80vh auto;
+
+}
