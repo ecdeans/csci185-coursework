@@ -1,6 +1,7 @@
 /* I add this line to all of my CSS files by default */
 body * {
     box-sizing: border-box;
+    
 }
 
 /*
@@ -13,16 +14,45 @@ flex-direction: 	(row, column, row-reverse, column-reverse)
 flex-wrap: 		    (no-wrap, wrap)
 */
 
+main {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+main section {
+    width: 25%;
+    min-height: 300px;
+    border: solid 1px black;
+    margin: 10px
+}
 
+.home {
+    
+}
 
+.bio {
+    
+}
+
+.portfolio {
+    
+}
+
+.contact {
+    
+}
 
 
 @media only screen and (max-width: 1000px) {
-    /* Your code here */
+    main section {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     /* Your code here */
 }
+
+
 

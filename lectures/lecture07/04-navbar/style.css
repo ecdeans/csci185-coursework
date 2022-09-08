@@ -10,3 +10,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
+nav {
+ display: flex;
+ border: solid 1px black;
+ justify-content: space-between
+}
+
+ul {
+    display: flex;
+    border: solid 1px black;
+    width: 250px;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
