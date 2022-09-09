@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito+Sans:wght@300&family=Quicksand&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+      
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;;
+}
+
+section, footer {
+    padding: 30px 10vw;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, rgb(63, 101, 205), rgb(97, 186, 182)); 
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    color: white;
+    top: 0;
+    padding-left: 2px;
+    padding-right: 40px;
+    /* border: solid 1px black; */
+    align-self: flex-end;
+} 
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+
+li {
+    color: white;
+}
+
+h1 {
+    color: white;
+    /* flex-direction: row; */
+}
+
+a, a:link, a:hover, a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#profile-pic {
+    border-radius: 100px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    width: 200px;
+
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 1px black; */
+    flex-direction: column;
+}
+
+/* Your CSS Code Here! */
