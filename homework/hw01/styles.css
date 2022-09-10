@@ -37,6 +37,7 @@ footer {
     padding-right: 15vw;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: rgb(232, 232, 232);
 }
 
 #contact {
@@ -140,7 +141,7 @@ img {
 }
 
 footer {
-    background-color: lightgray;
+    background-color: rgb(232, 232, 232);
     text-align: center;
 }
 
@@ -188,6 +189,7 @@ footer {
 .contact-info {
     display: flex;
     flex-direction: column;
+    padding-left: 25px;
  }
 
 .contact-details {
