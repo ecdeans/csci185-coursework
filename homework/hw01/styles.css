@@ -10,7 +10,6 @@ html {
 
 body * {
     box-sizing: border-box;
-    font-family: 'Nunito Sans', sans-serif;;
 }
 
 /* section, footer {
@@ -80,7 +79,16 @@ li {
 
 h1 {
     color: white;
+    font-family: 'Nunito Sans', sans-serif;;
     /* flex-direction: row; */
+}
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;;
 }
 
 a, a:link, a:hover, a:visited {
