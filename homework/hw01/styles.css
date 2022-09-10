@@ -159,7 +159,8 @@ footer {
     border: none;
     color: darkgrey;
     padding: 10px;
-    min-width: 175px;
+    min-width: 180px;
+    min-height: 40px;
 }
 
 #email {
@@ -169,6 +170,7 @@ footer {
     color: darkgrey;
     padding: 10px;
     min-width: 300px;
+    min-height: 40px;
 }
 
 #message {
@@ -176,8 +178,9 @@ footer {
     border-radius: 5px;
     border: none;
     color: darkgrey;
-    padding: 30px;
+    padding: 10px;
     min-width: 500px;
+    min-height: 145px;
 
 }
 
@@ -210,9 +213,13 @@ form {
 #rowmess {
     grid-row-start: 3;
     grid-row-end: 6;
-    justify-items: stretch;
+    /* justify-items: stretch; */
 }
 
 #rowemail {
     grid-column-start: 5;
+}
+
+#begincontact {
+    padding-bottom: 25px;
 }
