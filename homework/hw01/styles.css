@@ -13,13 +13,39 @@ body * {
     font-family: 'Nunito Sans', sans-serif;;
 }
 
-section, footer {
-    padding: 30px 10vw;
-}
+/* section, footer {
+    padding: 30px 5vw;
+}  */
 
 body {
     margin: 0;
 }
+
+footer {
+    padding: 30px;
+}
+
+#about {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+#projects {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 30px;
+    padding-bottom: 10vw;
+}
+
 
 header {
     background-color: aliceblue;
@@ -80,6 +106,111 @@ p {
     justify-content: center;
     /* border: solid 1px black; */
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
-/* Your CSS Code Here! */
+.project-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#flexleft {
+    width: 50%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+#flexright {
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.card {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 5vw;
+}
+
+img { 
+    max-height: 200px;
+    max-width: 300px;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#submit {
+    background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+ #name {
+    background-color: lightgray;
+    border-radius: 5px;
+    border: none;
+    color: darkgrey;
+    padding: 10px;
+    min-width: 175px;
+}
+
+#email {
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: none;
+    color: darkgrey;
+    padding: 10px;
+    min-width: 300px;
+}
+
+#message {
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: none;
+    color: darkgrey;
+    padding: 30px;
+    min-width: 500px;
+
+}
+
+#formfill {
+    display: flex;
+ }
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+ }
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+ }
+
+form {
+    display: grid;
+    grid-template-rows: 50px 10px 50px 50px 50px 10px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 10px;
+ }
+
+#rowbutton {
+    grid-row-start: 7;
+}
+
+#rowmess {
+    grid-row-start: 3;
+    grid-row-end: 6;
+    justify-items: stretch;
+}
+
+#rowemail {
+    grid-column-start: 5;
+}
