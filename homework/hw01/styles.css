@@ -224,6 +224,7 @@ form {
 
 #rowbutton {
     grid-row-start: 7;
+    padding-top: 10px;
 }
 
 #rowmess {
