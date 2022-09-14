@@ -16,3 +16,9 @@ section {
     width: 200px;
     height: 75px;
 }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
