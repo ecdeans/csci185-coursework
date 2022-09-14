@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -47,4 +48,32 @@ footer {
     padding: 30px;
     margin-top: 30px;
     text-align: center;
+}
+
+main {
+    margin: 15vh;
+}
+
+#card1, #card3, #card5 {
+    background-color: #EEEEEE;
+}
+
+#card2, #card4, #card6 {
+    background-color: #BCE5D6;
+}
+
+#card1 img {
+    border-radius: 200px;
+}
+
+#card3 img {
+    border-radius: 200px;
+}
+
+#card5 img {
+    border-radius: 200px;
+}
+
+main > p {
+    font-weight: bold;
 }
