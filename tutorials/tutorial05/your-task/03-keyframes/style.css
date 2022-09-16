@@ -23,11 +23,11 @@
     left: calc(100vw + 100px);
     font-size: 60px;
     
-    /* animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite; 
     animation-name: moveCloudLeft;
     animation-delay: 3s;
-    animation-duration: 5s; */
+    animation-duration: 5s;
 }
 
 #sun {
@@ -37,8 +37,14 @@
     left: calc(50vw - 50px); 
     font-size: 200px;
 
+
     /* Add animation properties for the sun here: */
-    /* animation-fill-mode: forwards; */
+
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite; 
+    animation-name: moveSun;
+    animation-delay: 3s;
+    animation-duration: 10s;
     
 }
 
@@ -51,22 +57,29 @@
     }
 }
 
-/* @keyframes moveCloudLeft {
+@keyframes moveCloudLeft {
     from { 
         left: calc(100vw + 100px); 
+        font-size: 20%;
     }
     to { 
         left: -100px; 
+        color: darkgray;
+        font-size: 500%;
     }
-} */
+}
 
 
 
-/* @keyframes sunrise {
+@keyframes moveSun {
     from { 
-        
+        left: -150px;
+        color: yellow;
+        bottom: 10px;
     }
     to { 
-
+        left: calc(100vw + 100px); 
+        color: red;
+        top: 200px;
     }
-} */
+}

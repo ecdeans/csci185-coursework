@@ -24,11 +24,12 @@ header {
     justify-content: center; /* horizontal-align text in the center */
     
     
-    /* background-image: url('solar-eclipse.jpg');
+    background-image: url('solar-eclipse.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center; */
+    background-position-y: center;
+    /* filter: invert(180); */
 }
 
 section {
@@ -39,11 +40,11 @@ section {
     background-color: black;
     padding-left: 0px;
 
-    /* background-image: url('solar-eclipse-multiples.jpg');
+    background-image: url('solar-eclipse-multiples.jpg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
-    background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 .text-container {
@@ -51,6 +52,13 @@ section {
     padding: 40px;
     margin: 40px;
     width: 50vw;
+}
+
+#section1 {
+    background-image: url(pexelscon.jpeg);
+    background-size: cover;
+    color: white;
+    filter: sepia(180);
 }
 
 p {
