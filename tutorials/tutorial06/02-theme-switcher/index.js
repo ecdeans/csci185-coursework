@@ -1,5 +1,5 @@
 const defaultTheme = ev => {
-    // document.querySelector("header").style.backgroundColor = 
+    document.querySelector("body").className = "";
 };
 
 const oceanTheme = ev => {
@@ -8,11 +8,11 @@ const oceanTheme = ev => {
 };
 
 const desertTheme = ev => {
-   // your code here.
+    document.querySelector("body").className = "desert";
 };
 
 const highContrastTheme = ev => {
-    // your code here.
+    document.querySelector("body").className = "high-contrast";
 }; 
 
 /*
