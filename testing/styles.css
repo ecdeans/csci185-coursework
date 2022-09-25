@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito+Sans:wght@300&family=Quicksand&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+      
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;;
+    margin: 0;
+}
+
+main {
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+
+footer {
+    background-color: #EEE;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+header {
+    background-color: seagreen;
+    /* background-image:  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+nav {
+    color: white;
+    top: 0;
+    padding-left: 2px;
+    padding-right: 40px;
+    /* border: solid 1px black; */
+    align-self: flex-end;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+
+a, a:link, a:hover, a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+    color: white;
+}

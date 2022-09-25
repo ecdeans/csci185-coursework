@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
     font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
     color: #fff;
@@ -83,7 +85,25 @@ footer {
 /* Part A: Left Navigation */
 /***************************/
 
-/* Your Code Here */
+#sidebar {
+ display: flex;
+ padding-left: 4vh;
+ padding-top: 2vh;
+}
+
+#sidebar > a {
+    padding-bottom: 2.5vh;
+    
+}
+
+#sidebar > h1 {
+    padding-bottom: 4vh;
+}
+
+ a > i{
+    padding-right: 2vh;
+ }
+
 
 
 
@@ -91,7 +111,66 @@ footer {
 /* Part B: Header & Nav Styling */
 /********************************/
 
-/* Your Code Here */
+header {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: .5vw;
+    padding-right: 2vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+    padding-bottom: 2vh;
+    padding-top: 3vh;
+    padding-left: 1vh;
+}
+
+nav > a {
+    padding: 2vh;
+}
+
+#profile {
+    outline: rgb(38, 38, 38) solid 1px;
+    margin: 1vh;
+    margin-top: 3vh;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(38, 38, 38);
+
+}
+
+#upgrade {
+    outline: white solid 1px;
+    margin: 1vh;
+    margin-top: 3vh;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.selected {
+    border-left: solid seagreen 5px;
+
+}
+
+#sidebar a {
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
 
 
 
