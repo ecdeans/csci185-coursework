@@ -10,16 +10,11 @@ function setup() {
     drawCreature(92, 115, 85, '#5e6976', '#1b324d', 'red');
     drawCreature(487, 110, 101, '#bfdc65', '#abb880', 'red');
     drawCreature(454, 423, 141, '#aebb83', '#227876', 'red');
-    // drawCreature(333, 227, 99, '#94ba77', '#3f5364');
-    // drawCreature(117, 314, 91, '#648d8e', '#afc272');
+    drawCreature(333, 227, 99, '#94ba77', '#3f5364', 'blue');
+    drawCreature(117, 314, 91, '#648d8e', '#afc272', 'yellow');
     
     drawGrid(canvasWidth, canvasHeight);
-    curve(
-        600, 100,       // control point
-        400, 100, 
-        100, 200,
-        100, 100        // control point
-    )
+
 }
 
 // define your drawCreature function here:
