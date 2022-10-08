@@ -130,9 +130,9 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: smaller;
-    padding-bottom: 2vh;
-    padding-top: 3vh;
-    padding-left: 1vh;
+    margin-bottom: 1vh;
+    margin-top: 3vh;
+    margin-left: 1vh;
 }
 
 nav > a {
