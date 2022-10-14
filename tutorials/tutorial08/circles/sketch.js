@@ -9,8 +9,24 @@ function setup() {
         // circle(100, 0 + counter*10, 50);
         circle(200, 10 + counter*20, 50 + counter*10);
 
+        circle(canvasWidth/2, 0+counter*10, counter*10)
         counter += 1;
     }
+
+    let counter2 = 0;
+    while (counter2 < 800) {
+        if (counter2 % 2 == 1) {
+            fill('hotpink')
+        } else if (counter2 % 3 == 2) {
+            fill('red')
+        } else {
+            fill('white')
+        }
+        circle(canvasWidth/2, 0+counter2*10, counter2*10)
+
+        counter += 1;
+    
+}
 
 
 
