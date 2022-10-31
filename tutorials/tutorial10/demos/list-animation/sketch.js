@@ -2,7 +2,7 @@ const canvasWidth = window.innerWidth;
 const canvasHeight = window.innerHeight; 
 
 let color = 'white';
-const bubbles = [];
+const treePositionList = [];
 
 function setup() {
     createCanvas(canvasWidth, canvasHeight);
@@ -26,27 +26,24 @@ function getRandomColor() {
 function mouseDragged() {
     // 1. When you drag your mouse, create a bubble 
     //    object and add it to the "bubbles" list.
-    const bubble = {
+    const treePosition = {
         x: mouseX,
         y: mouseY,
-        d: Math.random()* 40 + 3,
-        speed: -1 * randDecimal(1, 3) - .5,
-        color: getRandomColor()
     }
-    bubbles.push(bubble)
+    treePositionList.push(treePosition)
 }
 
 function draw() {
     clear();
     // 2. loop through the bubbles list and draw / animate each bubble:
-    for (const bubble of bubbles) {
-        fill(bubble.color);
-        circle(bubble.x, bubble.y, bubble.d);
-        bubble.y += bubble.speed;
+    for (const treePosition of treePositionList) {
+        fill('green');
+        drawTree(treePosition.x, treePosition.y);
+        // bubble.y += bubble.speed;
 
-        if (bubble.y < -100) {
-            bubble.y = canvasHeight + 100;
-        }
+        // if (bubble.y < -100) {
+            // bubble.y = canvasHeight + 100;
+        // }
     }
 
     // message:
@@ -56,3 +53,23 @@ function draw() {
     text("Drag to add bubbles.", canvasWidth/2, canvasHeight/2);
 
 }
+
+function drawTree(x, y){
+    let treeHeight = 50;
+    let treeWidth = 30;
+    const treeBottomY = y + treeHeight * 0.9;
+  
+    // trunk
+    stroke(101, 0, 11);
+    fill(150, 75, 0);
+    rect(x - treeWidth * 0.1, treeBottomY,
+        treeWidth * 0.2, treeHeight * 0.1);
+  
+    // tree
+    stroke(34, 139, 34);
+    fill(38, 230, 0);
+    triangle(x, y,
+             x + treeWidth * 0.5, treeBottomY,
+             x - treeWidth * 0.5, treeBottomY);
+
+    }
